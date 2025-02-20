@@ -18,6 +18,9 @@ sections:
       button:
         text: Download Résumé
         url: uploads/resume.pdf
+      text:
+        With innovation as my blade, I unravel the riddles of problems, and with optimism in my heart, I journey afar.
+
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here

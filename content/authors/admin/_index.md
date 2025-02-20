@@ -184,6 +184,7 @@ skills:
           - name: Time-Series Analysis
             percent: 70
             icon: chart-line
+            description: ''
           - name: Data Pipeline
             percent: 70
             icon: simple-icons/pipeline
@@ -214,7 +215,7 @@ skills:
     items: # 具体爱好列表
       - name: Hiking
         description: ''
-        percent: 100 # 爱好百分比可以根据需要调整，这里沿用之前的
+        percent: 60 # 爱好百分比可以根据需要调整，这里沿用之前的
         icon: person-simple-walk
       - name: Basketball
         description: ''
