@@ -157,12 +157,19 @@ skills:
       - name: MATLAB  # 技能子类：编程语言
         description: ''
         icon: devicon/MATLAB
-  - name: Databases
+  - name: AI/ML & Databases
     items:
-      - name: Databases - MongoDB, BigQuery, Cloudflare D1, Redis, Azure SQL Database # 技能子类：数据库
+      - name: LLMs Deployment(OpenAI, DeepSeek, Gemini, Claude, etc.)
         description: ''
-        icon: simple-icons/mongodb
+        icon: simple-icons/powerbi
 
+      - name: Data Pipeline
+        description: ''
+        icon: simple-icons/power
+
+      - name: Data Analysis & Visualization(Looker, PowerBI)
+        description: ''
+        icon: simple-icons/powerbi
       - name: BigQuery
         description: ''
         icon: simple-icons/bigquery
@@ -179,12 +186,8 @@ skills:
         description: ''
         icon: simple-icons/azure
 
-  - name: Cloud Platforms
+  - name: Cloud Platforms & DevOps & Infrastructure
     items:
-      - name: Cloud Platforms - Azure Cloud, Cloudflare, Google Cloud, DigitalOcean # 技能子类：云平台
-        description: ''
-        icon: simple-icons/googlecloud
-
       - name: Azure Cloud
         description: ''
         icon: simple-icons/googlecloud
@@ -201,22 +204,6 @@ skills:
         description: ''
         icon: simple-icons/DigitalOcean
 
-  - name: AI/ML & Data Science
-    items:
-      - name: LLMs Deployment(OpenAI, DeepSeek, Gemini, Claude, etc.)
-        description: ''
-        icon: simple-icons/powerbi
-
-      - name: Data Pipeline
-        description: ''
-        icon: simple-icons/power
-
-      - name: Data Analysis & Visualization(Looker, PowerBI)
-        description: ''
-        icon: simple-icons/powerbi
-
-  - name: DevOps & Infrastructure
-    items:
       - name: Docker
         description: ''
         icon: devicon/docker
