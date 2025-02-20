@@ -1,13 +1,10 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Baiyang Qu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Baiyang
+last_name: Qu
 
 # Status emoji
 status:
@@ -17,12 +14,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: AI Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: VIVACITY
+    url: https://www.vivacityapp.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
