@@ -136,12 +136,30 @@ work:
       * Developed VR software (UE4) for children's English learning and conducted programming courses.
       * Pioneered VR travel experiences for individuals with mobility difficulties and elderly residents.
 
+  - name: Hobbies # 技能大类：兴趣爱好 (放在 Skills 下面)
+    color: '#eeac02' # 保留原 hobbies 的颜色设置
+    color_border: '#f0bf23' # 保留原 hobbies 的边框颜色设置
+    items: # 具体爱好列表
+      - name: Hiking
+        description: ''
+        percent: 60 # 爱好百分比可以根据需要调整，这里沿用之前的
+        icon: person-simple-walk
+      - name: Basketball
+        description: ''
+        percent: 70
+        icon: basketball-ball
+      - name: Frisbee
+        description: ''
+        percent: 70
+        icon: disc-flying
+
 # Skills
 skills:
   - name: Technical Skills # 技能大类：技术技能
     items:
-      - name: Programming Languages # 技能子类：编程语言
+      - name: Programming Languages - Python, JavaScript/Node.js, C++, MATLAB  # 技能子类：编程语言
         description: ''
+        icon: devicon/python
         items: # 具体技能列表
           - name: Python
             percent: 90
@@ -155,8 +173,9 @@ skills:
           - name: MATLAB
             percent: 60
             icon: devicon/matlab
-      - name: Databases # 技能子类：数据库
+      - name: Databases - MongoDB, Cloudflare D1, Redis, Azure SQL Database # 技能子类：数据库
         description: ''
+        icon: devicon/sql
         items: # 具体技能列表
           - name: SQL
             percent: 80
@@ -173,8 +192,9 @@ skills:
           - name: Azure SQL Database
             percent: 70
             icon: simple-icons/azure
-      - name: Cloud Platforms # 技能子类：云平台
+      - name: Cloud Platforms - Azure Cloud(Azure OpenAI, Azure ML, AKS, Azure Data Lake Storage, Azure DevOps), Cloudflare # 技能子类：云平台
         description: ''
+        icon: simple-icons/azure
         items: # 具体技能列表
           - name: Azure Cloud
             percent: 80
@@ -191,8 +211,9 @@ skills:
           - name: DigitalOcean
             percent: 60
             icon: simple-icons/digitalocean
-      - name: AI/ML & Data Science # 技能子类：AI/ML & 数据科学
+      - name: AI/ML & Data Science - LLMs Deployment(OpenAI, DeepSeek, Gemini, Claude, etc.), Data Pipeline, Data Analysis & Visualization(Looker, PowerBI) # 技能子类：AI/ML & 数据科学
         description: ''
+        icon: simple-icons/languagemodel
         items: # 具体技能列表
           - name: LLMs
             percent: 80
@@ -218,8 +239,9 @@ skills:
             percent: 60
             icon: simple-icons/powerbi
             description: Looker, PowerBI
-      - name: DevOps & Infrastructure # 技能子类：DevOps & 基础设施
+      - name: DevOps & Infrastructure - Docker, HPC, Linux/Bash, Kubernetes # 技能子类：DevOps & 基础设施
         description: ''
+        icon: devicon/docker
         items: # 具体技能列表
           - name: Docker
             percent: 75

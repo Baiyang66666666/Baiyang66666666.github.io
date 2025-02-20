@@ -21,7 +21,9 @@ sections:
       text:
         With innovation as my blade, I unravel the riddles of problems；
         With optimism in my heart, I journey afar.
-
+      button:
+        text: Download
+        url: uploads/BaiyangQu_MScDissertation.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -32,9 +34,6 @@ sections:
   - block: experience
     content:
       username: admin
-      button:
-        text: Download
-        url: uploads/BaiyangQu_MScDissertation.pdf
     design:
       # Hugo date format
       date_format: 'January 2006'
