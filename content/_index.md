@@ -43,10 +43,6 @@ sections:
     content:
       title: Skills 
       username: admin
-  - block: hobbies
-    content:
-      title: Hobbies 
-      username: admin
   - block: awards
     content:
       title: Awards

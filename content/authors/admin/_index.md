@@ -158,7 +158,7 @@ skills:
           - name: MATLAB
             percent: 60
             icon: devicon/matlab
-      - name: Databases - MongoDB, Cloudflare D1, Redis, Azure SQL Database # 技能子类：数据库
+      - name: Databases - MongoDB, BigQuery, Cloudflare D1, Redis, Azure SQL Database # 技能子类：数据库
         description: ''
         icon: devicon/sql
         items: # 具体技能列表
@@ -177,7 +177,7 @@ skills:
           - name: Azure SQL Database
             percent: 70
             icon: simple-icons/azure
-      - name: Cloud Platforms - Azure Cloud(Azure OpenAI, Azure ML, AKS, Azure Data Lake Storage, Azure DevOps), Cloudflare # 技能子类：云平台
+      - name: Cloud Platforms - Azure Cloud(Azure OpenAI, Azure ML, AKS, Azure Data Lake Storage, Azure DevOps), Cloudflare, Google Cloud # 技能子类：云平台
         description: ''
         icon: simple-icons/azure
         items: # 具体技能列表
