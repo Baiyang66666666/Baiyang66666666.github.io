@@ -48,7 +48,9 @@ education:
       Modules included: Speech Technology, Scalable Machine Learning, Text Processing, Speech Processing, Natural Language Processing, Machine Learning and Adaptive Intelligence, Team Software Project, Computer Professional Issues.
 
       Dissertation: Improving Automatic Speech Recognition to help the prediction of Transient Loss of Consciousness consultations.
-    dissertation_file: uploads/BaiyangQu_MScDissertation.pdf
+    button:
+      text: Download
+      url: https://github.com/Baiyang66666666/TLOC-Diagnosis-tool-with-conversation-analysis-and-improved-ASR-system/blob/main/BaiyangQu_MScDissertation.pdf
       
   - area: BSc Electronic Information Engineering
     institution: Qingdao University
@@ -135,23 +137,6 @@ work:
       * Spearheaded a team for volunteer activities in communities and rural areas.
       * Developed VR software (UE4) for children's English learning and conducted programming courses.
       * Pioneered VR travel experiences for individuals with mobility difficulties and elderly residents.
-
-  - name: Hobbies # 技能大类：兴趣爱好 (放在 Skills 下面)
-    color: '#eeac02' # 保留原 hobbies 的颜色设置
-    color_border: '#f0bf23' # 保留原 hobbies 的边框颜色设置
-    items: # 具体爱好列表
-      - name: Hiking
-        description: ''
-        percent: 60 # 爱好百分比可以根据需要调整，这里沿用之前的
-        icon: person-simple-walk
-      - name: Basketball
-        description: ''
-        percent: 70
-        icon: basketball-ball
-      - name: Frisbee
-        description: ''
-        percent: 70
-        icon: disc-flying
 
 # Skills
 skills:
@@ -256,6 +241,7 @@ skills:
             percent: 75
             icon: simple-icons/kubernetes
 
+hobbies:
   - name: Hobbies # 技能大类：兴趣爱好 (放在 Skills 下面)
     color: '#eeac02' # 保留原 hobbies 的颜色设置
     color_border: '#f0bf23' # 保留原 hobbies 的边框颜色设置
