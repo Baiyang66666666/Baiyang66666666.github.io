@@ -76,20 +76,17 @@ work:
       * Used asynchronous programming and task queues (Cloudflare Queue) for efficient data processing.
       * Optimized SQL database for storing and retrieving user data.
 
-    summary: |2-
       Azure AI-based Automated Image Classification System | AI Engineer**
 
       * Fine-tuned a Large Language Model (LLM) with labeled data for improved accuracy.
       * Built the backend with NestJS, integrated pretrained LLM for classification, and used Redis Queue for batch tasks.
       * Developed MongoDB storage for metadata and classification logs, adding an error correction module to improve model training.
 
-    summary: |2-
       WeChat Mini-Program User Analysis & Business Insights**
 
       * Used Google BigQuery for large-scale data analysis and Looker for real-time visualizations.
       * Applied SQL for data cleaning and aggregation, with time-series analysis to detect trends in active users and query volumes.
 
-    summary: |2-
       Industry-Specific Translation & Terminology Management System | AI Engineer**
 
       * Designed and implemented Glossary datastore (Cloudflare D1 Database) for managing industry-specific terms, ensuring consistency and accuracy in translations.

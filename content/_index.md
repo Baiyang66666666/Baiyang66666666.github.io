@@ -19,7 +19,8 @@ sections:
         text: Download Résumé
         url: uploads/resume.pdf
       text:
-        With innovation as my blade, I unravel the riddles of problems, and with optimism in my heart, I journey afar.
+        With innovation as my blade, I unravel the riddles of problems；
+        With optimism in my heart, I journey afar.
 
     design:
       banner:
@@ -27,10 +28,13 @@ sections:
         filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg # 请替换为您希望使用的banner图片文件名，并确保图片在 assets/media/ 目录下
       biography:
         # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
+        style: 'text-align: center; font-size: 1.1em; font-family: Georgia, serif; color: #444;'
   - block: experience
     content:
       username: admin
+      button:
+        text: Download
+        url: uploads/BaiyangQu_MScDissertation.pdf
     design:
       # Hugo date format
       date_format: 'January 2006'
