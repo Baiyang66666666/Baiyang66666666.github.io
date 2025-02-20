@@ -209,7 +209,7 @@ skills:
 
       - name: Data Pipeline
         description: ''
-        icon: simple-icons/powerbi
+        icon: simple-icons/power
 
       - name: Data Analysis & Visualization(Looker, PowerBI)
         description: ''
