@@ -122,7 +122,7 @@ work:
     company_url:  # 可以添加公司网址，如果希望展示
     company_logo: '' # Add logo URL if available
     date_start: 2021-06-10
-    date_end: 2021-08-13
+    date_end: 2021-11-13
     summary: |2-
       * Verified the accuracy of visual positioning by calibrating VR sensor data with visual input.
       * Recorded and analyzed motion tracking data for positioning algorithm improvement.
