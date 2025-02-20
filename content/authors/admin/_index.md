@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Baiyang Qu
+Email address: baiyangqu6@gmail.com
 
 # Full name (for SEO)
 first_name: Baiyang
@@ -30,9 +31,9 @@ profiles:
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev # Replace with actual Twitter URL if available
   - icon: brands/github
-    url: https://github.com/your-github-username # Replace with actual GitHub URL if available
+    url: https://github.com/Baiyang66666666 # Replace with actual GitHub URL if available
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/your-linkedin-username # Replace with actual LinkedIn URL if available
+    url: www.linkedin.com/in/baiyang-qu-6b1b19249 # Replace with actual LinkedIn URL if available
   # - icon: brands/instagram
   #   url: https://www.instagram.com/ # Replace with actual Instagram URL if available
 
@@ -112,161 +113,125 @@ work:
 
 # Skills
 skills:
-  - name: Technical Skills
+  - name: Technical Skills # 技能大类：技术技能
     items:
-      - name: Python
+      - name: Programming Languages # 技能子类：编程语言
         description: ''
-        percent: 90 # 请根据实际情况调整百分比
-        icon: devicon/python
-      - name: JavaScript/Node.js
+        items: # 具体技能列表
+          - name: Python
+            percent: 90
+            icon: devicon/python
+          - name: JavaScript/Node.js
+            percent: 85
+            icon: devicon/javascript
+          - name: C++
+            percent: 70
+            icon: devicon/cplusplus
+          - name: MATLAB
+            percent: 60
+            icon: devicon/matlab
+      - name: Databases # 技能子类：数据库
         description: ''
-        percent: 85 # 请根据实际情况调整百分比
-        icon: devicon/javascript
-      - name: SQL
+        items: # 具体技能列表
+          - name: SQL
+            percent: 80
+            icon: devicon/sql
+          - name: MongoDB
+            percent: 70
+            icon: simple-icons/mongodb
+          - name: Redis
+            percent: 70
+            icon: simple-icons/redis
+          - name: Azure Cosmos DB
+            percent: 70
+            icon: simple-icons/azure
+          - name: Azure SQL Database
+            percent: 70
+            icon: simple-icons/azure
+      - name: Cloud Platforms # 技能子类：云平台
         description: ''
-        percent: 80 # 请根据实际情况调整百分比
-        icon: devicon/sql
-      - name: C++
+        items: # 具体技能列表
+          - name: Azure Cloud
+            percent: 80
+            icon: simple-icons/azure
+            description: Azure OpenAI, Azure ML, AKS, Azure Data Lake Storage, Azure DevOps
+          - name: Google Cloud
+            percent: 70
+            icon: simple-icons/googlecloud
+            description: BigQuery, GCS
+          - name: Cloudflare
+            percent: 80
+            icon: simple-icons/cloudflare
+            description: Cloudflare Workers
+          - name: DigitalOcean
+            percent: 60
+            icon: simple-icons/digitalocean
+      - name: AI/ML & Data Science # 技能子类：AI/ML & 数据科学
         description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: devicon/cplusplus
-      - name: MATLAB
+        items: # 具体技能列表
+          - name: LLMs
+            percent: 80
+            icon: simple-icons/languagemodel
+            description: LLM Deployment, LLM Fine-tuning, RAG
+          - name: ML Frameworks
+            percent: 75
+            icon: simple-icons/neuralnetwork
+            description: PyTorch, TensorFlow, Neural Networks
+          - name: Computer Vision
+            percent: 70
+            icon: simple-icons/computervision
+            description: Image Classification
+          - name: Time-Series Analysis
+            percent: 70
+            icon: chart-line
+          - name: Data Pipeline
+            percent: 70
+            icon: simple-icons/pipeline
+            description: Data Pipeline Optimization
+          - name: Data Analysis & Visualization
+            percent: 60
+            icon: simple-icons/powerbi
+            description: Looker, PowerBI
+      - name: DevOps & Infrastructure # 技能子类：DevOps & 基础设施
         description: ''
-        percent: 60 # 请根据实际情况调整百分比
-        icon: devicon/matlab
-      - name: LLM Deployment
-        description: ''
-        percent: 80 # 请根据实际情况调整百分比
-        icon: simple-icons/languagemodel #  可以更换更合适的图标
-      - name: LLM Fine-tuning
-        description: ''
-        percent: 75 # 请根据实际情况调整百分比
-        icon: simple-icons/adjust # 可以更换更合适的图标
-      - name: RAG
-        description: Retrieval-Augmented Generation
-        percent: 85 # 请根据实际情况调整百分比
-        icon: simple-icons/retriever # 可以更换更合适的图标
-      - name: Azure OpenAI
-        description: ''
-        percent: 85 # 请根据实际情况调整百分比
-        icon: simple-icons/azure # 可以更换更合适的图标
-      - name: Neural Networks
-        description: ''
-        percent: 75 # 请根据实际情况调整百分比
-        icon: simple-icons/neuralnetwork # 可以更换更合适的图标
-      - name: PyTorch
-        description: ''
-        percent: 75 # 请根据实际情况调整百分比
-        icon: devicon/pytorch
-      - name: TensorFlow
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: devicon/tensorflow
-      - name: LangChain
-        description: ''
-        percent: 85 # 请根据实际情况调整百分比
-        icon: simple-icons/langchain # 可以更换更合适的图标
-      - name: Computer Vision
-        description: Image Classification
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/computervision # 可以更换更合适的图标
-      - name: Azure ML
-        description: Azure Machine Learning
-        percent: 80 # 请根据实际情况调整百分比
-        icon: simple-icons/azure # 可以更换更合适的图标
-      - name: AKS
-        description: Azure Kubernetes Service
-        percent: 75 # 请根据实际情况调整百分比
-        icon: simple-icons/kubernetes # 可以更换更合适的图标
-      - name: Azure Data Lake Storage
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/azure # 可以更换更合适的图标
-      - name: Azure Cosmos DB
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/azure # 可以更换更合适的图标
-      - name: Azure SQL Database
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/azure # 可以更换更合适的图标
-      - name: Azure DevOps
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/azuredevops # 可以更换更合适的图标
-      - name: PowerBI
-        description: ''
-        percent: 60 # 请根据实际情况调整百分比
-        icon: simple-icons/powerbi
-      - name: Google Cloud
-        description: BigQuery, GCS
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/googlecloud
-      - name: Cloudflare Workers
-        description: ''
-        percent: 80 # 请根据实际情况调整百分比
-        icon: simple-icons/cloudflare
-      - name: DigitalOcean
-        description: ''
-        percent: 60 # 请根据实际情况调整百分比
-        icon: simple-icons/digitalocean # 可以更换更合适的图标
-      - name: Redis
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/redis
-      - name: MongoDB
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/mongodb
-      - name: Docker
-        description: ''
-        percent: 75 # 请根据实际情况调整百分比
-        icon: devicon/docker
-      - name: HPC
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/hpc # 可以更换更合适的图标
-      - name: Linux/Bash
-        description: ''
-        percent: 80 # 请根据实际情况调整百分比
-        icon: devicon/linux #  或 devicon/bash，根据具体情况选择
-      - name: Time-Series Analysis
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: chart-line # 可以更换更合适的图标
-      - name: Data Pipeline Optimization
-        description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: simple-icons/pipeline # 可以更换更合适的图标
-      - name: Looker
-        description: ''
-        percent: 60 # 请根据实际情况调整百分比
-        icon: simple-icons/looker
+        items: # 具体技能列表
+          - name: Docker
+            percent: 75
+            icon: devicon/docker
+          - name: HPC
+            percent: 70
+            icon: simple-icons/hpc
+          - name: Linux/Bash
+            percent: 80
+            icon: devicon/linux
+          - name: Azure Kubernetes Service (AKS)
+            percent: 75
+            icon: simple-icons/kubernetes
 
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
+  - name: Hobbies # 技能大类：兴趣爱好 (放在 Skills 下面)
+    color: '#eeac02' # 保留原 hobbies 的颜色设置
+    color_border: '#f0bf23' # 保留原 hobbies 的边框颜色设置
+    items: # 具体爱好列表
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 100 # 爱好百分比可以根据需要调整，这里沿用之前的
         icon: person-simple-walk
       - name: Basketball
         description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: basketball-ball #  可以更换更合适的图标
+        percent: 70
+        icon: basketball-ball
       - name: Frisbee
         description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: disc-flying # 可以更换更合适的图标
+        percent: 70
+        icon: disc-flying
       - name: Table Tennis
         description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: table-tennis-paddle-ball # 可以更换更合适的图标
+        percent: 70
+        icon: table-tennis-paddle-ball
       - name: Snowboarding
         description: ''
-        percent: 70 # 请根据实际情况调整百分比
-        icon: snowboard # 可以更换更合适的图标
+        percent: 70
+        icon: snowboard
 
 
 languages:
@@ -274,8 +239,8 @@ languages:
     percent: 100 # 请根据实际情况调整百分比
   - name: Chinese
     percent: 100 #  母语，所以调整为 100%
-
-
+  - name: French
+    percent: 25
 # Awards.
 awards:
   - title: Outstanding Graduates of Qingdao University
