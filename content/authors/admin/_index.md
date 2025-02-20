@@ -201,8 +201,37 @@ skills:
         description: ''
         icon: simple-icons/DigitalOcean
 
+  - name: AI/ML & Data Science
+    items:
+      - name: LLMs Deployment(OpenAI, DeepSeek, Gemini, Claude, etc.)
+        description: ''
+        icon: simple-icons/powerbi
 
+      - name: Data Pipeline
+        description: ''
+        icon: simple-icons/powerbi
 
+      - name: Data Analysis & Visualization(Looker, PowerBI)
+        description: ''
+        icon: simple-icons/powerbi
+
+  - name: DevOps & Infrastructure
+    items:
+      - name: Docker
+        description: ''
+        icon: devicon/docker
+
+      - name: HPC
+        description: ''
+        icon: devicon/docker
+
+      - name: Linux/Bash # 技能子类：DevOps & 基础设施
+        description: ''
+        icon: devicon/docker
+
+      - name: Kubernetes # 技能子类：DevOps & 基础设施
+        description: ''
+        icon: devicon/docker
 
 
 languages:
