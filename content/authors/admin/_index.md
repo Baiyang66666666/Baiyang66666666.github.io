@@ -145,103 +145,23 @@ skills:
       - name: Programming Languages - Python, JavaScript/Node.js, C++, MATLAB  # 技能子类：编程语言
         description: ''
         icon: devicon/python
-        items: # 具体技能列表
-          - name: Python
-            percent: 90
-            icon: devicon/python
-          - name: JavaScript/Node.js
-            percent: 85
-            icon: devicon/javascript
-          - name: C++
-            percent: 70
-            icon: devicon/cplusplus
-          - name: MATLAB
-            percent: 60
-            icon: devicon/matlab
+
       - name: Databases - MongoDB, BigQuery, Cloudflare D1, Redis, Azure SQL Database # 技能子类：数据库
         description: ''
-        icon: devicon/sql
-        items: # 具体技能列表
-          - name: SQL
-            percent: 80
-            icon: devicon/sql
-          - name: MongoDB
-            percent: 70
-            icon: simple-icons/mongodb
-          - name: Redis
-            percent: 70
-            icon: simple-icons/redis
-          - name: Azure Cosmos DB
-            percent: 70
-            icon: simple-icons/azure
-          - name: Azure SQL Database
-            percent: 70
-            icon: simple-icons/azure
-      - name: Cloud Platforms - Azure Cloud(Azure OpenAI, Azure ML, AKS, Azure Data Lake Storage, Azure DevOps), Cloudflare, Google Cloud # 技能子类：云平台
+        icon: simple-icons/mongodb
+
+      - name: Cloud Platforms - Azure Cloud, Cloudflare, Google Cloud, DigitalOcean # 技能子类：云平台
         description: ''
-        icon: simple-icons/azure
-        items: # 具体技能列表
-          - name: Azure Cloud
-            percent: 80
-            icon: simple-icons/azure
-            description: Azure OpenAI, Azure ML, AKS, Azure Data Lake Storage, Azure DevOps
-          - name: Google Cloud
-            percent: 70
-            icon: simple-icons/googlecloud
-            description: BigQuery, GCS
-          - name: Cloudflare
-            percent: 80
-            icon: simple-icons/cloudflare
-            description: Cloudflare Workers
-          - name: DigitalOcean
-            percent: 60
-            icon: simple-icons/digitalocean
+        icon: simple-icons/googlecloud
+
       - name: AI/ML & Data Science - LLMs Deployment(OpenAI, DeepSeek, Gemini, Claude, etc.), Data Pipeline, Data Analysis & Visualization(Looker, PowerBI) # 技能子类：AI/ML & 数据科学
         description: ''
-        icon: simple-icons/languagemodel
-        items: # 具体技能列表
-          - name: LLMs
-            percent: 80
-            icon: simple-icons/languagemodel
-            description: LLM Deployment, LLM Fine-tuning, RAG
-          - name: ML Frameworks
-            percent: 75
-            icon: simple-icons/neuralnetwork
-            description: PyTorch, TensorFlow, Neural Networks
-          - name: Computer Vision
-            percent: 70
-            icon: simple-icons/computervision
-            description: Image Classification
-          - name: Time-Series Analysis
-            percent: 70
-            icon: chart-line
-            description: ''
-          - name: Data Pipeline
-            percent: 70
-            icon: simple-icons/pipeline
-            description: Data Pipeline Optimization
-          - name: Data Analysis & Visualization
-            percent: 60
-            icon: simple-icons/powerbi
-            description: Looker, PowerBI
+        icon: simple-icons/powerbi
+
       - name: DevOps & Infrastructure - Docker, HPC, Linux/Bash, Kubernetes # 技能子类：DevOps & 基础设施
         description: ''
         icon: devicon/docker
-        items: # 具体技能列表
-          - name: Docker
-            percent: 75
-            icon: devicon/docker
-          - name: HPC
-            percent: 70
-            icon: simple-icons/hpc
-          - name: Linux/Bash
-            percent: 80
-            icon: devicon/linux
-          - name: Azure Kubernetes Service (AKS)
-            percent: 75
-            icon: simple-icons/kubernetes
 
-hobbies:
   - name: Hobbies # 技能大类：兴趣爱好 (放在 Skills 下面)
     color: '#eeac02' # 保留原 hobbies 的颜色设置
     color_border: '#f0bf23' # 保留原 hobbies 的边框颜色设置
