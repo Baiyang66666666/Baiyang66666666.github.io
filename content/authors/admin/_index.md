@@ -27,11 +27,14 @@ profiles:
   - icon: at-symbol
     url: 'mailto:baiyangqu6@gmail.com'
     label: E-mail Me
-  # 可以根据需要添加其他社交媒体链接，例如：
-  # - icon: brands/linkedin
-  #   url: 'your_linkedin_url'
-  #   label: LinkedIn
-
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev # Replace with actual Twitter URL if available
+  - icon: brands/github
+    url: https://github.com/your-github-username # Replace with actual GitHub URL if available
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/your-linkedin-username # Replace with actual LinkedIn URL if available
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/ # Replace with actual Instagram URL if available
 
 education:
   - area: MSc Computer Science with Speech and Language Processing
@@ -40,22 +43,22 @@ education:
     date_end: 2023-09-01
     summary: |
       Completed with Distinction Degree.
-      Modules: Speech Technology, Scalable Machine Learning, Text Processing, Speech Processing, Natural Language Processing, Machine Learning and Adaptive Intelligence, Team Software Project, Computer Professional Issues.
+      Modules included: Speech Technology, Scalable Machine Learning, Text Processing, Speech Processing, Natural Language Processing, Machine Learning and Adaptive Intelligence, Team Software Project, Computer Professional Issues.
   - area: BSc Electronic Information Engineering
     institution: Qingdao University
     date_start: 2017-09-01
     date_end: 2021-06-01
     summary: |
       GPA: 81.68/100
-      Modules: C Language Programming, Embedded System and Application, Signal and System, Algorithms and Data Structure, Python Programming, Circuit Principle, Object-Oriented Programming, Pattern Recognition, LabVIEW, etc.
+      Modules included: C Language Programming, Embedded System and Application, Signal and System, Algorithms and Data Structure, Python Programming, Circuit Principle, Object-Oriented Programming, Pattern Recognition, LabVIEW, etc.
 
 work:
   - position: AI Engineer
     company_name: VIVACITY
     company_url: https://www.vivacityapp.com/ # 如果有更具体的公司网址，请替换
-    company_logo: '' # 如果有公司 Logo URL，请添加
+    company_logo: '' # Add logo URL if available
     date_start: 2024-05-01
-    date_end: '' # Current job
+    date_end: ''
     summary: |2-
       AI Text Processing & Multi-Functional System (RAG Project) | Full Stack Developer
 
@@ -67,8 +70,8 @@ work:
       * Optimized SQL database for storing and retrieving user data.
   - position: Student Internship
     company_name: VoiceBase, Inc., A LivePerson (LPSN) Company
-    company_url: '' # 如果有公司网址，请添加
-    company_logo: '' # 如果有公司 Logo URL，请添加
+    company_url: ''
+    company_logo: '' # Add logo URL if available
     date_start: 2023-03-03
     date_end: 2023-07-28
     summary: |2-
@@ -78,7 +81,7 @@ work:
   - position: Graduate Teaching Assistant
     company_name: University of Sheffield
     company_url: https://www.sheffield.ac.uk/ # 如果有学校网址，请替换
-    company_logo: '' # 如果有学校 Logo URL，请添加
+    company_logo: '' # Add logo URL if available
     date_start: 2022-10-04
     date_end: 2022-12-02
     summary: |2-
@@ -89,7 +92,7 @@ work:
   - position: Algorithm Intern
     company_name: ByteDance PICO
     company_url:  # 可以添加公司网址，如果希望展示
-    company_logo: '' # 如果有公司 Logo URL，请添加
+    company_logo: '' # Add logo URL if available
     date_start: 2021-06-10
     date_end: 2021-08-13
     summary: |2-
@@ -99,7 +102,7 @@ work:
   - position: Team Leader
     company_name: Little Sunflower Volunteer Team in Qingdao University
     company_url:  # 可以添加组织网址，如果希望展示
-    company_logo: '' # 如果有组织 Logo URL，请添加
+    company_logo: '' # Add logo URL if available
     date_start: 2017-10-01
     date_end: 2021-08-01
     summary: |2-
@@ -162,4 +165,159 @@ skills:
       - name: LangChain
         description: ''
         percent: 85 # 请根据实际情况调整百分比
-        icon: simple-icons
+        icon: simple-icons/langchain # 可以更换更合适的图标
+      - name: Computer Vision
+        description: Image Classification
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/computervision # 可以更换更合适的图标
+      - name: Azure ML
+        description: Azure Machine Learning
+        percent: 80 # 请根据实际情况调整百分比
+        icon: simple-icons/azure # 可以更换更合适的图标
+      - name: AKS
+        description: Azure Kubernetes Service
+        percent: 75 # 请根据实际情况调整百分比
+        icon: simple-icons/kubernetes # 可以更换更合适的图标
+      - name: Azure Data Lake Storage
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/azure # 可以更换更合适的图标
+      - name: Azure Cosmos DB
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/azure # 可以更换更合适的图标
+      - name: Azure SQL Database
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/azure # 可以更换更合适的图标
+      - name: Azure DevOps
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/azuredevops # 可以更换更合适的图标
+      - name: PowerBI
+        description: ''
+        percent: 60 # 请根据实际情况调整百分比
+        icon: simple-icons/powerbi
+      - name: Google Cloud
+        description: BigQuery, GCS
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/googlecloud
+      - name: Cloudflare Workers
+        description: ''
+        percent: 80 # 请根据实际情况调整百分比
+        icon: simple-icons/cloudflare
+      - name: DigitalOcean
+        description: ''
+        percent: 60 # 请根据实际情况调整百分比
+        icon: simple-icons/digitalocean # 可以更换更合适的图标
+      - name: Redis
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/redis
+      - name: MongoDB
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/mongodb
+      - name: Docker
+        description: ''
+        percent: 75 # 请根据实际情况调整百分比
+        icon: devicon/docker
+      - name: HPC
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/hpc # 可以更换更合适的图标
+      - name: Linux/Bash
+        description: ''
+        percent: 80 # 请根据实际情况调整百分比
+        icon: devicon/linux #  或 devicon/bash，根据具体情况选择
+      - name: Time-Series Analysis
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: chart-line # 可以更换更合适的图标
+      - name: Data Pipeline Optimization
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: simple-icons/pipeline # 可以更换更合适的图标
+      - name: Looker
+        description: ''
+        percent: 60 # 请根据实际情况调整百分比
+        icon: simple-icons/looker
+
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Basketball
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: basketball-ball #  可以更换更合适的图标
+      - name: Frisbee
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: disc-flying # 可以更换更合适的图标
+      - name: Table Tennis
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: table-tennis-paddle-ball # 可以更换更合适的图标
+      - name: Snowboarding
+        description: ''
+        percent: 70 # 请根据实际情况调整百分比
+        icon: snowboard # 可以更换更合适的图标
+
+
+languages:
+  - name: English
+    percent: 100 # 请根据实际情况调整百分比
+  - name: Chinese
+    percent: 100 #  母语，所以调整为 100%
+
+
+# Awards.
+awards:
+  - title: Outstanding Graduates of Qingdao University
+    date: '2020'
+    awarder: Qingdao University
+    icon: school #  可以更换更合适的图标
+    summary: |
+      Outstanding Graduates of Qingdao University
+  - title: University Academic Excellence Scholarship
+    date: '2017-2021'
+    awarder: Qingdao University
+    icon: school #  可以更换更合适的图标
+    summary: |
+      University Academic Excellence Scholarship (2017-2021)
+  - title: Honorable Mention on Mathematical Contest in Modeling (MCM/ICM)
+    date: '2020'
+    awarder: MCM/ICM
+    icon: award # 可以更换更合适的图标
+    summary: |
+      Honorable Mention on Mathematical Contest in Modeling (MCM/ICM)
+  - title: First Prize on National Mathematical Contest in Modeling
+    date: '2019'
+    awarder: National Mathematical Contest in Modeling
+    icon: award # 可以更换更合适的图标
+    summary: |
+      First Prize on National Mathematical Contest in Modeling
+  - title: First Prize on National Undergraduate Electronic Design Contest
+    date: '2019'
+    awarder: National Undergraduate Electronic Design Contest
+    icon: award # 可以更换更合适的图标
+    summary: |
+      First Prize on National Undergraduate Electronic Design Contest
+  - title: First Prize on Provincial University Internet of Things Contest of Innovation
+    date: '2019'
+    awarder: Provincial University Internet of Things Contest of Innovation
+    icon: award # 可以更换更合适的图标
+    summary: |
+      First Prize on Provincial University Internet of Things Contest of Innovation
+  - title: Second Prize of Provincial College Student Physics Competition
+    date: '2019'
+    awarder: Provincial College Student Physics Competition
+    icon: award # 可以更换更合适的图标
+    summary: |
+      Second Prize of Provincial College Student Physics Competition
+---
