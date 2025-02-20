@@ -279,43 +279,43 @@ languages:
 # Awards.
 awards:
   - title: Outstanding Graduates of Qingdao University
-    date: '2020'
+    date: '2020-01-01' #  修改为 YYYY-MM-DD 格式
     awarder: Qingdao University
     icon: school #  可以更换更合适的图标
     summary: |
       Outstanding Graduates of Qingdao University
   - title: University Academic Excellence Scholarship
-    date: '2017-2021'
+    date: '2017-01-01' # 修改为 YYYY-MM-DD 格式 (起始年份)
     awarder: Qingdao University
     icon: school #  可以更换更合适的图标
     summary: |
       University Academic Excellence Scholarship (2017-2021)
   - title: Honorable Mention on Mathematical Contest in Modeling (MCM/ICM)
-    date: '2020'
+    date: '2020-01-01' #  修改为 YYYY-MM-DD 格式
     awarder: MCM/ICM
     icon: award # 可以更换更合适的图标
     summary: |
       Honorable Mention on Mathematical Contest in Modeling (MCM/ICM)
   - title: First Prize on National Mathematical Contest in Modeling
-    date: '2019'
+    date: '2019-01-01' #  修改为 YYYY-MM-DD 格式
     awarder: National Mathematical Contest in Modeling
     icon: award # 可以更换更合适的图标
     summary: |
       First Prize on National Mathematical Contest in Modeling
   - title: First Prize on National Undergraduate Electronic Design Contest
-    date: '2019'
+    date: '2019-01-01' #  修改为 YYYY-MM-DD 格式
     awarder: National Undergraduate Electronic Design Contest
     icon: award # 可以更换更合适的图标
     summary: |
       First Prize on National Undergraduate Electronic Design Contest
   - title: First Prize on Provincial University Internet of Things Contest of Innovation
-    date: '2019'
+    date: '2019-01-01' #  修改为 YYYY-MM-DD 格式
     awarder: Provincial University Internet of Things Contest of Innovation
     icon: award # 可以更换更合适的图标
     summary: |
       First Prize on Provincial University Internet of Things Contest of Innovation
   - title: Second Prize of Provincial College Student Physics Competition
-    date: '2019'
+    date: '2019-01-01' #  修改为 YYYY-MM-DD 格式
     awarder: Provincial College Student Physics Competition
     icon: award # 可以更换更合适的图标
     summary: |
