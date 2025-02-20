@@ -33,7 +33,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/Baiyang66666666 # Replace with actual GitHub URL if available
   - icon: brands/linkedin
-    url: www.linkedin.com/in/baiyang-qu-6b1b19249 # Replace with actual LinkedIn URL if available
+    url: https://www.linkedin.com/in/baiyang-qu-6b1b19249 # Replace with actual LinkedIn URL if available
   # - icon: brands/instagram
   #   url: https://www.instagram.com/ # Replace with actual Instagram URL if available
 
@@ -44,13 +44,19 @@ education:
     date_end: 2023-09-01
     summary: |
       Completed with Distinction Degree.
+
       Modules included: Speech Technology, Scalable Machine Learning, Text Processing, Speech Processing, Natural Language Processing, Machine Learning and Adaptive Intelligence, Team Software Project, Computer Professional Issues.
+
+      Dissertation: Improving Automatic Speech Recognition to help the prediction of Transient Loss of Consciousness consultations.
+    dissertation_file: uploads/BaiyangQu_MScDissertation.pdf
+      
   - area: BSc Electronic Information Engineering
     institution: Qingdao University
     date_start: 2017-09-01
     date_end: 2021-06-01
     summary: |
       GPA: 81.68/100
+
       Modules included: C Language Programming, Embedded System and Application, Signal and System, Algorithms and Data Structure, Python Programming, Circuit Principle, Object-Oriented Programming, Pattern Recognition, LabVIEW, etc.
 
 work:
@@ -69,6 +75,28 @@ work:
       * Developed AI agents for dynamic task handling and integrated LangChain.
       * Used asynchronous programming and task queues (Cloudflare Queue) for efficient data processing.
       * Optimized SQL database for storing and retrieving user data.
+
+    summary: |2-
+      Azure AI-based Automated Image Classification System | AI Engineer**
+
+      * Fine-tuned a Large Language Model (LLM) with labeled data for improved accuracy.
+      * Built the backend with NestJS, integrated pretrained LLM for classification, and used Redis Queue for batch tasks.
+      * Developed MongoDB storage for metadata and classification logs, adding an error correction module to improve model training.
+
+    summary: |2-
+      WeChat Mini-Program User Analysis & Business Insights**
+
+      * Used Google BigQuery for large-scale data analysis and Looker for real-time visualizations.
+      * Applied SQL for data cleaning and aggregation, with time-series analysis to detect trends in active users and query volumes.
+
+    summary: |2-
+      Industry-Specific Translation & Terminology Management System | AI Engineer**
+
+      * Designed and implemented Glossary datastore (Cloudflare D1 Database) for managing industry-specific terms, ensuring consistency and accuracy in translations.
+      * Developed RESTful APIs for glossary updates and integrated Azure OpenAI for customized machine translation.
+      * Used SQL for efficient data storage and real-time glossary synchronization, providing flexible and fast translation.
+
+      
   - position: Student Internship
     company_name: VoiceBase, Inc., A LivePerson (LPSN) Company
     company_url: ''
