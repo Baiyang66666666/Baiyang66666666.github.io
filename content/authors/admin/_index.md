@@ -146,7 +146,7 @@ skills:
         description: ''
         icon: devicon/python
 
-      - name: JavaScript/Node.js  # 技能子类：编程语言
+      - name: JavaScript/Nodejs  # 技能子类：编程语言
         description: ''
         icon: devicon/java
 
