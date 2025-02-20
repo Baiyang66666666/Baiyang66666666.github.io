@@ -140,52 +140,69 @@ work:
 
 # Skills
 skills:
-  - name: Technical Skills # 技能大类：技术技能
+  - name: Programming Languages # 技能大类：技术技能
     items:
-      - name: Programming Languages - Python, JavaScript/Node.js, C++, MATLAB  # 技能子类：编程语言
+      - name: Python  # 技能子类：编程语言
         description: ''
         icon: devicon/python
 
+      - name: JavaScript/Node.js  # 技能子类：编程语言
+        description: ''
+        icon: devicon/java
+
+      - name: C++  # 技能子类：编程语言
+        description: ''
+        icon: devicon/C++
+
+      - name: MATLAB  # 技能子类：编程语言
+        description: ''
+        icon: devicon/MATLAB
+  - name: Databases
+    items:
       - name: Databases - MongoDB, BigQuery, Cloudflare D1, Redis, Azure SQL Database # 技能子类：数据库
         description: ''
         icon: simple-icons/mongodb
 
+      - name: BigQuery
+        description: ''
+        icon: simple-icons/bigquery
+
+      - name: Cloudflare D1
+        description: ''
+        icon: simple-icons/D1
+
+      - name: Redis
+        description: ''
+        icon: simple-icons/Redis      
+
+      - name: Azure SQL Database
+        description: ''
+        icon: simple-icons/azure
+
+  - name: Cloud Platforms
+    items:
       - name: Cloud Platforms - Azure Cloud, Cloudflare, Google Cloud, DigitalOcean # 技能子类：云平台
         description: ''
         icon: simple-icons/googlecloud
 
-      - name: AI/ML & Data Science - LLMs Deployment(OpenAI, DeepSeek, Gemini, Claude, etc.), Data Pipeline, Data Analysis & Visualization(Looker, PowerBI) # 技能子类：AI/ML & 数据科学
+      - name: Azure Cloud
         description: ''
-        icon: simple-icons/powerbi
+        icon: simple-icons/googlecloud
 
-      - name: DevOps & Infrastructure - Docker, HPC, Linux/Bash, Kubernetes # 技能子类：DevOps & 基础设施
+      - name: Cloudflare
         description: ''
-        icon: devicon/docker
+        icon: simple-icons/Cloudflare
 
-  - name: Hobbies # 技能大类：兴趣爱好 (放在 Skills 下面)
-    color: '#eeac02' # 保留原 hobbies 的颜色设置
-    color_border: '#f0bf23' # 保留原 hobbies 的边框颜色设置
-    items: # 具体爱好列表
-      - name: Hiking
+      - name: Google Cloud
         description: ''
-        percent: 60 # 爱好百分比可以根据需要调整，这里沿用之前的
-        icon: person-simple-walk
-      - name: Basketball
+        icon: simple-icons/googlecloud
+
+      - name: DigitalOcean
         description: ''
-        percent: 70
-        icon: basketball-ball
-      - name: Frisbee
-        description: ''
-        percent: 70
-        icon: disc-flying
-      - name: Table Tennis
-        description: ''
-        percent: 70
-        icon: table-tennis-paddle-ball
-      - name: Snowboarding
-        description: ''
-        percent: 70
-        icon: snowboard
+        icon: simple-icons/DigitalOcean
+
+
+
 
 
 languages:
