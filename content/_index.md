@@ -23,7 +23,7 @@ sections:
         With optimism in my heart, I journey afar.
       button:
         text: Download
-        url: uploads/BaiyangQu_MScDissertation.pdf
+        url: uploads/resume.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
