@@ -150,6 +150,14 @@ skills:
         description: ''
         icon: devicon/java
 
+      - name: SQL  # 技能子类：编程语言
+        description: ''
+        icon: devicon/SQL
+
+      - name: NestJS  # 技能子类：编程语言
+        description: ''
+        icon: devicon/NestJS
+
       - name: C++  # 技能子类：编程语言
         description: ''
         icon: devicon/C++
@@ -163,7 +171,7 @@ skills:
         description: ''
         icon: simple-icons/powerbi
 
-      - name: Data Pipeline
+      - name: Langchain/LangGraph
         description: ''
         icon: simple-icons/power
 
@@ -200,6 +208,10 @@ skills:
         description: ''
         icon: simple-icons/googlecloud
 
+      - name: RestAPI
+        description: ''
+        icon: simple-icons/RestAPI
+
       - name: DigitalOcean
         description: ''
         icon: simple-icons/DigitalOcean
@@ -216,9 +228,9 @@ skills:
         description: ''
         icon: devicon/docker
 
-      - name: Kubernetes # 技能子类：DevOps & 基础设施
+      - name: CI/CD # 技能子类：DevOps & 基础设施
         description: ''
-        icon: devicon/docker
+        icon: devicon/CI/CD
 
 
 languages:
